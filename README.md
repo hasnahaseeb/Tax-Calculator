@@ -24,8 +24,26 @@ This web application helps users calculate their overall income after tax deduct
 3. **View Results**: The calculated overall income will be displayed in a modal window.
 
 ## Screenshots
+### Tax Result for income 8 Lakhs:
+![Tax Result for income 8 Lakhs](https://github.com/hasnahaseeb/Tax-Calculator/blob/main/8L.png?raw=true)
 
-[Add a link to a live demo of your web application if available]
+### Tax Result for income 40 Lakhs, age under 40:
+![Tax Result for income 40 Lakh, age under 40](https://github.com/hasnahaseeb/Tax-Calculator/blob/main/40L.png?raw=true)
+
+### Tax Deduction Result for income 40 Lakhs, age 40 to 60:
+![Tax Result for income 40 Lakh, age 40 to 60](https://github.com/hasnahaseeb/Tax-Calculator/blob/main/40L_age2.png?raw=true)
+
+### Tax Deduction Result for income 40 Lakhs, age above 60:
+![Tax Result for income 40 Lakh, age above 60](https://github.com/hasnahaseeb/Tax-Calculator/blob/main/40L_age3.png?raw=true)
+
+### Tooltip Description for income field:
+![Tooltip description for income field](https://github.com/hasnahaseeb/Tax-Calculator/blob/main/tooltip_income.png?raw=true)
+
+### Error for all number fields:
+![Error for income number field](https://github.com/hasnahaseeb/Tax-Calculator/blob/main/error-numbers.png?raw=true)
+
+### Error for empty age group field:
+![Error for Age group field](https://github.com/hasnahaseeb/Tax-Calculator/blob/main/error-agegroup.png?raw=true)
 
 ## Installation
 To run the application locally, follow these steps:
