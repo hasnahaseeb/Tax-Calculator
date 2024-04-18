@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tax Calculator</title>
+    <link rel="stylesheet" href="resources/css/index.css">
+    <script src="resources/js/index.js" defer></script>
+</head>
+<body>
+    <br><br><br><br>
+    <form id="taxForm">
+        <div class="input-wrapper">
+            <label for="income">Enter Gross Annual Income <span class="tooltip">?<span class="tooltiptext">Gross annual income is your total salary in a year before any deductions</span></span></label>
+            <input type="text" id="income" name="income" required>
+            <span class="error-icon" id="incomeError" title="Please enter numbers only">!</span><br><br>
+        </div>
+        <div class="input-wrapper">
+            <label for="exIncome">Enter extra Income <span class="tooltip">?<span class="tooltiptext">Extra income refers to any additional income earned beyond your regular salary or wages</span></span></label>
+            <input type="text" id="exIncome" name="exIncome" required>
+            <span class="error-icon" id="exIncomeError" title="Please enter numbers only">!</span><br><br>
+        </div>
+        <div class="input-wrapper">
+            <label for="ageGrp">Enter age group <span class="tooltip">?<span class="tooltiptext">Your age group determines certain tax benefits and deductions</span></span></label>
+            <select id="ageGrp" name="ageGrp">
+                <option value=""></option>
+                <option value="under40"><40</option>
+                <option value="40 to 59">>=40 & <60</option>
+                <option value="60 and over">>=60</option>
+            </select>
+            <span class="error-icon" id="ageGrpError" title="Input field is mandatory">!</span><br><br>
+        </div>
+
+        <div class="input-wrapper">
+            <label for="deductions">Enter total applicable deductions <span class="tooltip">?<span class="tooltiptext">Total applicable deductions include any deductions or exemptions that you are eligible to claim on your taxes</span></span></label>
+            <input type="text" id="deductions" name="deductions" required>
+            <span class="error-icon" id="deductionsError" title="Please enter numbers only">!</span><br><br>
+        </div>
+        <button type="submit">Submit</button>
+    </form>
+
+    <div id="taxResultsModal" class="modal">
+        <div class="modal-content">
+            <div id="taxResults" style="display:block;"></div>
+            <button id="closeButton">Close</button>
+        </div>
+    </div>
+    
+
+</body>
+</html>
